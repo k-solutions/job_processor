@@ -1,18 +1,27 @@
 # JobProcessor
 
-**TODO: Add description**
+## Runing
+
+To run application just use standart:
+
+```bash
+mix run --no-halt 
+```
 
 ## Installation
 
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `job_processor` to your list of dependencies in `mix.exs`:
+To download application dependancies
 
-```elixir
-def deps do
-  [
-    {:job_processor, "~> 0.1.0"}
-  ]
-end
+```bash
+mix deps.get 
+```
+
+## Testing 
+
+A standart: 
+
+```bash
+mix test 
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
